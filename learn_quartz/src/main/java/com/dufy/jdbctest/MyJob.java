@@ -9,6 +9,10 @@ import org.quartz.JobExecutionException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+/**
+ * 定时任务执行体
+ * wkl
+ */
 public class MyJob implements Job{
 	private static final Logger log = LoggerFactory.getLogger(MyJob.class);
 
